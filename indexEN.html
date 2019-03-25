@@ -1,0 +1,236 @@
+<!DOCTYPE>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/diapo.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+	<body>
+		<div>
+			<ul class="diapo">
+			    <li>   
+			        <span>Image 01</span>
+			       	<div id="titleRealisations"><h3>Realisations</h3></div>
+			    </li>
+
+			    <li>
+			        <span>Image 02</span>
+			        <div id="titlePhotos"><h3>Photos</h3></div>
+			    </li>
+
+			    <li>
+			        <span>Image 03</span>
+			        <div id="titleAudiovisuel"><h3>Audio-visual</h3></div>
+			    </li>
+
+			    <li>
+			        <span>Image 04</span>
+			        <div id="titleJV"><h3>Video Games</h3></div>
+			    </li>
+			</ul>
+		</div>
+
+		<div class="button" onclick="page()">
+			<a href="index.html"><img src="icons/fr.png"></a>
+		</div>
+
+
+		<div id=retour onclick="retour()"></div>
+			<div id=block>
+				<div class="case" id="c1" onclick="scale(this)">
+					<h1>Profil</h1>
+					<img class="icon" src="icons/profil.png">
+					<div class="containerCase">
+						<div id="photoProfil"><img src="photopp.jpg"></div>
+								<p id="textProfil">My name is Dorian and I'm 18. I'm Currently studying DUT MMI (Multimedia and Internet Professions) at the University of Rouen. Above all passionate about video games, I developped my attraction for the photo and audio-visual throughout my training. On my website, you can discover me through different sections and for any question, do not hesitate to contact me!</p>
+						</div>
+					</div>
+
+				<div class="case" id="c2" onclick="scale(this)">
+					<h1>Infographics</h1>
+					<img class="icon" src="icons/cpu.png">
+					<div class="containerCase">
+
+					<div class="sliderInfographie">
+
+						<div class="slidesInfographie">
+
+							<div class="slideInfographie">
+								<a href="imagesInfographie/1.jpg" target="_blank"><img src="imagesInfographie/1.jpg" alt="Mockup Archigraphic"></a>
+
+								<div class="description">
+									<p>Mockup of t-shirt for a fictional graphic studio</p>
+								</div>
+							</div>
+
+							<div class="slideInfographie">
+								<a href="imagesInfographie/2.jpg" target="_blank"><img src="imagesInfographie/2.jpg" alt="MemeMag"></a>
+
+								<div class="description">
+									<p>Mockup of a fictional magazine on memes' theme</p>
+								</div>
+							</div>
+
+							<div class="slideInfographie">
+								<a href="imagesInfographie/3.jpg" target="_blank"><img src="imagesInfographie/3.jpg" alt="SamyX, le déodorant le plus chaud de ta région"></a>
+
+								<div class="description">
+									<p>Creation of an advertising poster for a deodorant</p>
+								</div>
+							</div>
+
+							<div class="slideInfographie">
+								<a href="imagesInfographie/4.jpg" target="_blank"><img src="imagesInfographie/4.jpg" alt="Pictogrammes graphiques"></a>
+
+								<div class="description">
+									<p>Creation of pictograms related to multimedia domains</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+					</div>
+				</div>
+
+				<div class="case" id="c3" onclick="scale(this)">
+				<h1>Photos</h1>
+				<img class="icon" src="icons/photo.png">
+				<div class="containerCase">
+
+					<div class="sliderGalerie">
+
+						<div class="slidesGalerie">
+
+							<div class="slideGalerie"><a href="imagesGalerie/1.jpg" target="_blank"><img src="imagesGalerie/1.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/2.jpg" target="_blank"><img src="imagesGalerie/2.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/3.jpg" target="_blank"><img src="imagesGalerie/3.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/4.jpg" target="_blank"><img src="imagesGalerie/4.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/5.jpg" target="_blank"><img src="imagesGalerie/5.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/6.jpg" target="_blank"><img src="imagesGalerie/6.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/7.jpg" target="_blank"><img src="imagesGalerie/7.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/8.jpg" target="_blank"><img src="imagesGalerie/8.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/9.jpg" target="_blank"><img src="imagesGalerie/9.jpg" alt=""></a></div>
+
+							<div class="slideGalerie"><a href="imagesGalerie/10.jpg" target="_blank"><img src="imagesGalerie/10.jpg" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+				</div>
+
+				<div class="case" id="c4" onclick="scale(this)">
+					<h1>Audio-visual</h1>
+					<img class="icon" src="icons/video.png">
+					<div class="containerCase">
+
+						<div class="sliderAudiovisuel">
+
+						<div class="slidesAudiovisuel">
+
+							<div class="slideAudiovisuel">
+								<a href="https://youtu.be/HGcZBPjNLis" target="_blank"><img src="imagesAudiovisuel/1.jpg" alt="Jackpot"></a>
+
+								<div class="description">
+									<p>Short film co-directed and edited for the festival "24H de l'audiovisuel 2018"</p>
+								</div>
+							</div>
+
+							<div class="slideAudiovisuel">
+								<a href="https://youtu.be/xLiowFwRCY0" target="_blank"><img src="imagesAudiovisuel/2.png" alt="Reportage Jeet Kune Do"></a>
+
+								<div class="description">
+									<p>Report directed and edited on the Jeet Kune Do in Elbeuf</p>
+								</div>
+							</div>
+
+							<div class="slideAudiovisuel">
+								<a href="https://youtu.be/yAfS8sGcYAk" target="_blank"><img src="imagesAudiovisuel/3.jpg" alt="Coup final"></a>
+
+								<div class="description">
+									<p>Short film directed and edited on the theme of "film noir"</p>
+								</div>
+							</div>
+
+							<div class="slideAudiovisuel">
+								<a href="https://youtu.be/cnPdjftixZs" target="_blank"><img src="imagesAudiovisuel/4.png" alt="Spot publicitaire ELIYA"></a>
+
+								<div class="description">
+									<p>Advertising spot directed and edited for a project at the end of the 1st year</p>
+								</div>
+							</div>
+
+							<div class="slideAudiovisuel">
+								<a href="https://youtu.be/M3VOJ42Es84" target="_blank"><img src="imagesAudiovisuel/5.png" alt="Témoigagnes fictifs ELIYA"></a>
+
+								<div class="description">
+									<p>Fictitious testimonials directed and edited for the same project at the end of the 1st year</p>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="case" id="c5" onclick="scale(this)">
+					<h1>Video games</h1>
+					<img class="icon" src="icons/gamepad.png">
+					<div class="containerCase">
+						<div id="textJV">
+							<p>My biggest passion and my future professional project is in the world of video games and level design in particular. The level designer, in the creation of video game, is the person who takes care of the realization of the levels. From platform games to open world or even serious games, I like all types of games but especially their mechanisms and their operations.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="caseShake case" id="c6" onclick="shake(this)">
+					<h1>?????</h1>
+					<img class="icon" src="icons/puzzle.png">
+					<div class="containerCase">
+
+					</div>
+				</div>
+
+				<div class="case" id="c7" onclick="scale(this)" >
+					<h1>Skills</h1>
+					<img class="icon" src="icons/skills.png">
+					<div class="containerCase">
+
+						<div id="cvcss">
+							<a href="cv css/cv.html" target="_blank"><img src="cv.png" alt="CV"></a>
+						</div>
+					</div>
+				</div>					
+
+				<div class="case" id="c8" onclick="scale(this)">
+					<h1 id="titreC8">Resume & Contact</h1>
+					<img class="icon" src="icons/contact.png">
+					<div class="containerCase">
+
+						<div id="contactez">
+							<h2>Contact me on my <span id="mailspan">mail</span> or on <span id="facebookspan">Facebook</span>! My 
+							<a href=""CV CSS/"cv.pdf">resume here</a>!</h2>
+
+							<div id="logos">
+								<div id="mail">
+									<a href="mailto:dorian.wib@gmail.com"><img src="Mail.png" alt="gmail"/></a>
+								</div>
+						
+								<div id="facebook">
+									<a href=https://www.facebook.com/dorian.wbt target="_blank"><img src="Facebook.png" alt="facebook"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
